@@ -1,21 +1,11 @@
 return {
-  -- add gruvbox
   {
-    "ellisonleao/gruvbox.nvim",
-    opts = {
-      contrast = "hard",
-      -- overrides for gruvbox options (see available options in the repo)
-      overrides = {
-        Normal = { bg = "#121010" },
-      },
-    },
+    "rebelot/kanagawa.nvim",
   },
-
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "kanagawa-dragon",
     },
   },
 }
